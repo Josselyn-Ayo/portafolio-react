@@ -1,0 +1,273 @@
+header{
+  width:100% ;
+  height: 100vh;
+  background-image: linear-gradient(-20deg, #243b37f5 20%, #523c10c0 100%),url('/src/assets/importancia-de-la-programacion.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 15% 0%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+.navbar--container{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  align-items: center;
+}
+.navbar--logo{
+  margin: 0;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.navbar--menu{
+  padding: 0;
+  font-size: 1.8rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.navbar--menu a{
+  color: var(--primary);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: block;
+  text-align: left;
+}
+.navbar--menu a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.principal{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+.btn-light{
+  background-color: #b1dbdb; 
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.principal--title{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.1rem;
+}
+.principal--description{
+  font-size: 1.1rem;
+}
+
+.about{
+   flex-wrap: wrap;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+}
+.about--content{
+  padding: 1rem;
+  flex: 1 1 400px;
+  border: 1px solid white;
+  text-align: left;
+
+}
+.about--title{
+  font-size: 2rem;
+  margin: 0;
+  color: var(--secondary);
+}
+.about--paragraph{
+  text-align: left;
+  font-weight: 400;
+}
+.about--figure{
+   flex: 1 1 400px;
+  max-width: 100%;
+
+}
+.about--content,
+  .about--figure{
+        width: 50%;
+    }
+.about--picture{
+      width: 100%;
+    }
+.about--title{
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-size: 2.5rem
+    }
+.about--button{
+  background-color: #b1dbdb;
+}
+.project{
+    background: var(--portfolio);
+    text-align: center;
+    padding-top: .1rem;
+}
+.project--title{
+  font-size: 2rem;
+  color:var(--secondary); ;
+}
+.project--box{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 2rem 1rem;
+  width: 80%;
+  margin: 0 auto;
+   gap: 1rem;             
+  flex-wrap: nowrap; 
+}
+.projectbox--container{
+    flex: 1 1 0;             
+  max-width: 32%;   
+  border: 1px solid #dee2e6;
+  border-radius: 1.5rem 1.5rem 0 0;
+  box-shadow: 0 0.9rem 2rem rgba(0,0,0,0.1);
+  overflow: visible;
+  max-height: 540px;
+
+}
+.projectbox--img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.35s ease;
+}
+.projectbox--img:hover{
+  transform: scale(1,1);
+}
+.projectbox--info{
+  padding: 1rem 1.5rem;
+}
+.projectbox--title{
+ font-size: 2.5rem;
+  font-weight: 50;
+  margin: 0;
+}
+.project--text{
+  font-size: 1rem;
+  margin: .5rem 0 1rem;
+  
+}
+.projectbox--links{
+  display: flex;
+  justify-content: center;
+}
+.expert{
+  background-color: var(--portfolio);
+    padding: 32px 16px;;
+  text-align: center;
+}
+.expert--title{
+  font-size: 32px;
+  color: var(--secondary);
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  
+}
+.expert--img{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin:  70px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+}
+
+.experiencias-container {
+  display: flex;
+  flex-direction: row;      
+  justify-content: center;   
+  gap: 20px;                 
+  max-width: 900px;       
+  margin: 32px auto 80px auto;
+}
+
+.experiencia-card {
+  border: 1px solid #008080;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;              
+  text-align: center;
+  background-color: #e0f7f7;
+}
+
+.experiencia-titulo {
+  color: #008080;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.experiencia-texto {
+  font-style: italic;
+  color: #004d4d;
+}
+
+.container{
+    background-color: #166666;
+    text-align: center;
+    color: white;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+.footer-title{
+    margin: 0;
+}
+
+.footer-img{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: space-between;
+}
+.fab{
+  width: 40px;             
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  font-size: 16px;         
+  background-color: rgb(213, 224, 224);
+  color: var(--primary);
+  margin: 16px 16px 0 16px
+}
+ .footer,
+    .footer-img{
+        width: 50%;
+    }
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0;
+}
+.footer-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 14px;
+  width: 60px;
+}
