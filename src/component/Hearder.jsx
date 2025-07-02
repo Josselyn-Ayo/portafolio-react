@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Main from "./Main";
 function Hearder() {
   return (
@@ -5,11 +6,11 @@ function Hearder() {
         <nav className="navbar--container">
             <p className="navbar--logo">Anabel🦋</p>
             <ul className="navbar--menu">
-                <li><a href="#navbar">Inicio</a></li>
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#portafolio">Proyectos</a></li>
-                <li><a href="#expert">Experticia</a></li>
-                <li><a href="#contact"> Contacto</a></li>
+                <li><Link to="/inicio">Inicio</Link></li>
+                <li><Link to="/proyectos">Proyectos</Link></li>
+                <li><Link to="/experticia">Experticia</Link></li>
+                <li><Link to="/experiencias">Experiencias</Link></li>
+                <li><Link to="/contacto">Contacto</Link></li>
 
             </ul>
 
