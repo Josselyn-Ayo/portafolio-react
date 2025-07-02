@@ -7,8 +7,9 @@ function Expert(){
             <img src="https://www.jasoft.org/Blog/image.axd?picture=/2017/css3logo.png" className="expert--img"  alt="" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" className="expert--img" alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvci53iTsTd2IkGZoiY36kWxN2bxg7Z9o6oA&s"className="expert--img"  alt="" />
-
+            
         </section>
+        
     );
 }
 export default Expert;
